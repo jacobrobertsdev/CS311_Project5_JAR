@@ -16,8 +16,8 @@ function calculateScore() {
     let roll2 = Math.floor(Math.random() * 6) + 1;
     let total = roll1 + roll2;
 
-    die1.src = `../img/${roll1}.png`;
-    die2.src = `../img/${roll2}.png`;
+    die1.src = `./img/${roll1}.png`;
+    die2.src = `./img/${roll2}.png`;
 
     if (rollCount == 1) {
         switch (total) {
